@@ -4,8 +4,9 @@ Welcome to the documentation for Valence! Valence is an opinionated React compon
 ## Getting started
 (Coming soon). Currently, the package is not yet available on NPM, and cannot be easily setup. Once [v1.0](https://github.com/orgs/valence-dev/projects/1) has released, this section will be updated with setup instructions and best practices.
 
-## Links
+## The essentials
 - [Theming](core/valence-provider.md)
 - [Components](components/components.md)
 - [Hooks](hooks/hooks.md)
+- [Breakpoints](core/breakpoints.md)
 - [Polymorphism](core/polymorphism.md)
