@@ -10,6 +10,7 @@
 
 
 ## Display
+- [`Alert`](display/alert.md)
 - [`Loader`](display/loader.md)
 - [`Spoiler`](display/spoiler.md)
 - [`Text` & `Title`](display/text.md)
