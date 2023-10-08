@@ -33,10 +33,10 @@ As can be seen here, Valence departs from similar libraries (such as [Mantine](h
 
 
 ## Retrieving colors
-`ValenceProvider` exposes the `getColor()` method that can be used to retrieve the best color for this situation. This method serves a number of functions:
+`ValenceProvider` exposes the `getColor()` method that can be used to retrieve the best color for a given situation. This method serves a number of functions:
 - Adapting to the current color scheme
 - Providing fallbacks in the case of unknown colors
-The method has one parameter, `key: string`, which is used to find the closest color it can. If the provided color exists on the `ValenceProvider`, then it will be returned. If it does not, but a valid hex code (ie. starting with `#`) is supplied, a `Color` created with that hex code is created. Failing both those criteria, the method will return the provider's `primaryColor`.
+The method has one parameter, `key: string`, which is used to find the closest color it can. If the provided color exists on the `ValenceProvider`, then it will be returned. If it does not, but a valid hex code (ie. starting with `#`) is supplied, a `Color` created with that hex code is created. If the `undefined` value is provided, nothing will be returned, and failing all those criteria, the method will return the provider's `primaryColor`.
 
 
 ```ts
