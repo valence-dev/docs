@@ -23,8 +23,9 @@
 
 
 ## Layout
-- [`Header`](layout/header.md)
 - [`Flex` & `StyledFlex`](layout/flex.md)
+- [`Header`](layout/header.md)
+- [`Space`](layout/space.md)
 
 
 ## Overlays

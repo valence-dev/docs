@@ -1,5 +1,5 @@
 # Header
-The `Header` component is a layout component that helps the positioning of a `Title` and other components. It is, by itself, mostly uninteresting, but when paired with the [`AppContainer`](./app-container.md) component, the two work to become a powerful page layout system.
+The `Header` component is a layout component that helps position `Title` and other components. It is, by itself, mostly uninteresting, but when paired with the [`AppContainer`](./app-container.md) component, the two work to become a powerful page layout system.
 
 
 ## Breakpoint behaviour
