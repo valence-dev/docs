@@ -1,5 +1,15 @@
-# `AppContainer`
+# App container
 The `AppContainer` component is a large component that handles the layout of an entire app page, including the [`Nav`](../layout/nav.md) and [`Sidebar`](../layout/sidebar.md) components and page content.
+
+> **Layout notes:** the `AppContainer` component appears a bit strange in the Storybooks demo, however this is because it does not have the required CSS properties overridden on the demo element. To fix this issue in your own project, paste the following snippet into a globally-imported CSS file.
+```css
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+```
 
 ## Interaction hierarchy
 The visual design of the `AppContainer` creates an interaction hierarchy that should be followed for ease-of-use. 

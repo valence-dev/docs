@@ -1,4 +1,4 @@
-# `Nav`
+# Nav
 The `Nav` component is an implementation of a root-level navigator for webapps. It appears as a vertical stack of icon buttons down the left side of the screen, and is designed to be used in conjunction with the [`AppContainer` component](../layout/app-container.md).
 
 ## Props

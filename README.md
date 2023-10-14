@@ -5,6 +5,11 @@ Welcome to the documentation for Valence! Valence is an opinionated React compon
 ## Getting started
 (Coming soon). Currently, the package is not yet available on NPM, and cannot be easily setup. Once [v1.0](https://github.com/orgs/valence-dev/projects/1) has released, this section will be updated with setup instructions and best practices.
 
+This documention is best viewed with the Storybook instance alongside it. These docs do not contain any imagery, thus having a live preview of all elements is a valuable addition until a proper website for documentation is developed. To run the Storybook instance:
+1. Download the relevant Valence repositories from GitHub
+2. Run `npm install` to install all required dependencies
+3. Run `npm run storybook` and open `localhost:6006` to view the preview
+
 
 ## Divisions
 Valence is split into five major divisions, each of which serving their own purpose:

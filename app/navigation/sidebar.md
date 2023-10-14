@@ -1,4 +1,4 @@
-# `Sidebar`
+# Sidebar
 The `Sidebar` component is a vertical stack of buttons designed to handle page-level actions or navigation, such as jumping to page section anchors. It is designed to be used with the [`AppContainer` component](../layout/app-container.md). On desktop devices it will appear as a stack of [`ButtonWithIcons`](../../core/components/buttons/button-with-icon.md), and will be transformed to a horizontal row of [`IconButtons`](../../core/components/buttons/icon-button.md) on mobile devices.
 
 ## Props
