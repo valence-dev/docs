@@ -6,7 +6,7 @@ Extends [`GenericClickableProps`](./generic-clickable.md) and [`GenericLayoutPro
 
 | Property    | Type                           | Description                                                                                                                            |
 |-------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| variant     | `ButtonVariant`                | Sets the styling variant. Defaults to theme default.                                                                                   |
+| variant     | `FillVariant`                | Sets the styling variant. Defaults to theme default.                                                                                   |
 | size        | `ComponentSize`                | Sets the size class. Defaults to theme default size.                                                                                   |
 | radius      | `ComponentSize`                | Sets the radius size class. Defaults to theme default radius.                                                                          |
 | aspectRatio | `CSSProperties["aspectRatio"]` | Sets the `aspect-ratio` css property.                                                                                                  |

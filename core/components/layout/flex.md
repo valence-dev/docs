@@ -20,7 +20,7 @@ The `StyledFlex` component is a light wrapper around the `Flex` component that o
 Extends `FlexProps`.
 | Property | Type                          | Description                                                                                   |
 |----------|-------------------------------|-----------------------------------------------------------------------------------------------|
-| variant  | `ReactiveProp<ButtonVariant>` | Sets the styling variant. Defaults to the theme default variant.                              |
+| variant  | `ReactiveProp<FillVariant>` | Sets the styling variant. Defaults to the theme default variant.                              |
 | size     | `ReactiveProp<ComponentSize>` | Sets the size of this component. Defaults to the theme default size.                          |
 | radius   | `ReactiveProp<ComponentSize>` | Sets the radius of this component. Defaults to the theme default border size.                 |
 | shadow   | `ReactiveProp<boolean>`       | Whether to include a shadow underneath this component. Will display the theme default shadow. |

@@ -8,7 +8,7 @@ This function retrieves the most suitable background color for a button, given t
 ```ts
 function getBackgroundColor(
   color: CSSProperties["backgroundColor"],
-  variant: ButtonVariant | undefined,
+  variant: FillVariant | undefined,
   hovered: boolean,
   theme: IValenceContext        // Passed in from useContext(ValenceContext)
 ): string
@@ -20,7 +20,7 @@ Similar to `getBackgroundColor()`, this method will return the most suitable tex
 ```ts
 function getTextColor(
   color: CSSProperties["color"],
-  variant: ButtonVariant | undefined,
+  variant: FillVariant | undefined,
   theme: IValenceContext        // Passed in from useContext(ValenceContext)
 ): string
 ```

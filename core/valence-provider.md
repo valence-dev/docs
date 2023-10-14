@@ -40,7 +40,7 @@ The `ValenceContext` values can also be used by other components as well, so lon
 | `defaultRadius`                | `ComponentSize`                                         | `"sm"`                                       |
 | `defaultTransitionDuration`    | `React.CSSProperties["transitionDuration"]`             | `"0.1s"`                                     |
 | `defaultShadow`                | `React.CSSProperties["boxShadow"]`                      | `"0px 10px 30px rgba(0, 0, 0, 0.2)"`         |
-| `defaultVariant`               | `ButtonVariant`                                         | `"light"`                                    |
+| `defaultVariant`               | `FillVariant`                                         | `"light"`                                    |
 | `fontFamily`                   | N/A                                                     | N/A                                          |
 | `fontFamily.default`           | `string`                                                | `"Inter, sans-serif"`                        |
 | `fontFamily.heading`           | `string` (optional; falls back to `fontFamily.default`) | `undefined`                                  |
@@ -106,4 +106,4 @@ function Demo() {
   )
 }
 ```
-> [See more about colors.](colors.md)
+> [See more about colors.](./colors.md)

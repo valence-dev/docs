@@ -1,7 +1,7 @@
 # Generic props
 
 ## `GenericProps`
-Every Valence component has these properties.
+Every Valence component has these properties. Individual components may implement these props differently, and some may choose to entirely ignore the `children` prop.
 
 | Property | Type            | Description                               |
 |----------|-----------------|-------------------------------------------|

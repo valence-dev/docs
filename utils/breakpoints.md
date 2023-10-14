@@ -77,7 +77,7 @@ Because the `mobile` and `mobileTall` properties are not required, the following
 ## Using this system
 When creating your own components, you may want to utilise Valence's breakpoint system. Valence exposes the `getReactiveProp()` method and the `useBreakpoint` hook for this purpose. 
 
-The `getReactiveProp()` method requires two parameters, `prop: ReactiveProp`, and `breakpoint: Breakpoint`. It will calculate the fallback based upon the properties available on the `prop` parameter and the criteria met by the `breakpoint` parameter, returning the correct prop for the scenario. To help generate the `breakpoint`, the [`useBreakpoint`](../hooks/use-breakpoint.md) hook is exposed and can be called in the component and passed directly into this function, like so:
+The `getReactiveProp()` method requires two parameters, `prop: ReactiveProp`, and `breakpoint: Breakpoint`. It will calculate the fallback based upon the properties available on the `prop` parameter and the criteria met by the `breakpoint` parameter, returning the correct prop for the scenario. To help generate the `breakpoint`, the [`useBreakpoint`](../core/hooks/use-breakpoint.md) hook is exposed and can be called in the component and passed directly into this function, like so:
 
 ```ts
 import { useBreakpoint, ReactiveProp, getReactiveProp } from "valence-ui";
@@ -100,12 +100,12 @@ function Demo(props: DemoProps) {
 This can also be used in more complex circumstances, such as with setting with the `getTextColor()` method:
 
 ```ts
-import { useBreakpoint, ReactiveProp, getReactiveProp, getTextColor, ButtonVariant, ValenceContext } from "valence-ui";
+import { useBreakpoint, ReactiveProp, getReactiveProp, getTextColor, FillVariant, ValenceContext } from "valence-ui";
 import { useContext } from "react";
 
 type DemoProps = { 
   color: ReactiveProp<string>;
-  variant: ReactiveProp<ButtonVariant>;
+  variant: ReactiveProp<FillVariant>;
 }
 
 function Demo(props: DemoProps) { 
