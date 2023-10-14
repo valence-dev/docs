@@ -2,26 +2,33 @@
 Welcome to the documentation for Valence! Valence is an opinionated React component library [I (Isaac Shea)](https://isaacshea.com/) designed with the primary intention of using it in my web development projects. It is heavily inspired by [Mantine](https://mantine.dev/) and features a very similar development workflow. **Currently, Valence is in very early stages of its development**, thus it is not recommended for production use for anybody else. I have however decided to make it open source as I feel something like this benefits greatly from the opinions of multiple individuals.
 
 
-## Getting started
-(Coming soon). Currently, the package is not yet available on NPM, and cannot be easily setup. Once [v1.0](https://github.com/orgs/valence-dev/projects/1) has released, this section will be updated with setup instructions and best practices.
+## Divisions
+Valence is split into three high-level packages, with two supporting packages that provide common and lower-level functions. These high-level packages will be referred to as *divisions*. The three divisions are incompatible with one another, so you must choose during installation which one you want to use.
 
+### 1. Valence App
+`@valence-ui/app` is currently the only publicly-available division, and includes components designed specifically for webapps. [Avant by Isaac Shea](https://avant.isaacshea.com/) is made with Valence App.
+
+**Get started:** [read the guide](./app/quick-start.md)
+
+
+### 2. Valence Web (coming soon)
+`@valence-ui/web` will be the second Valence division, and will support common website design patterns.
+
+
+### 3. Valence Native (coming soon)
+`@valence-ui/native` will be the third Valence divison, and will include a ground-up rewrite of the entire library specifically for React Native. Valence Native is designed to keep as much of its high-level interface identical to the web version, for continuity's sake.
+
+
+### Other packages
+- [**Valence Core**](./core/README.md) - This package includes components and hooks used across both the App and Web divisions of Valence.
+- [**Valence Utils**](./utils/README.md) - Miscellaneous low-level features and types used across all packages.
+
+
+## Reading these docs
 This documention is best viewed with the Storybook instance alongside it. These docs do not contain any imagery, thus having a live preview of all elements is a valuable addition until a proper website for documentation is developed. To run the Storybook instance:
 1. Download the relevant Valence repositories from GitHub
 2. Run `npm install` to install all required dependencies
 3. Run `npm run storybook` and open `localhost:6006` to view the preview
-
-
-## Divisions
-Valence is split into five major divisions, each of which serving their own purpose:
-1. [**Utils:**](./utils/README.md) underlying infrastructure that all four other divisions rely on
-2. [**Core:**](./core/README.md) basic components designed to be used across both websites, webapps, and native apps
-3. [**App:**](./app/README.md) components specifically designed for use within webapps
-4. **Web:**  components specifically design for use on websites (coming soon) 
-5. **Native:** a re-implementation of the entire library in React Native (coming soon)
-
-The App and Web libraries both rely on the Utils and Core libraries, but are incompatible with one another because they may contain double-ups that change dramatically (the `<Nav>` component is one such example).
-
-The Native library contains completely new implementations of the Utils and Core libraries built from the ground up for React Native, and for obvious reasons is incompatible with the other four libraries. Valence Native is designed to keep as much of its high-level interface identical to the web version, for continuity's sake.
 
 
 ## Core concepts

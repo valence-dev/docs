@@ -2,7 +2,7 @@
 The `ValenceProvider` component provides a context value to all Valence components, and is essential for the functionality of the library as a whole. It must be rendered at the root of your application, and should only be used once.
 
 ```ts
-import { ValenceContext } from "valence-ui";
+import { ValenceContext } from "@valence-ui/core";
 
 function App() { 
   return (
@@ -16,7 +16,7 @@ function App() {
 The provider is then used as a context by all Valence components:
 
 ```ts
-import { ValenceContext } from "../../../core";
+import { ValenceContext } from "@valence-ui/core";
 import { useContext } from "react";
 
 export function PrimitiveButton(props: PrimitiveButtonProps) { 
