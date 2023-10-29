@@ -8,6 +8,7 @@ The `valence-ui-core` library houses all components that are used across both th
 - [`MultipartButton`](./components/buttons/multipart-button.md)
 - [`PrimitiveButton`](./components/buttons/primitive-button.md)
 - [`TextButton` / `Button`](./components/buttons/text-button.md)
+- [`UnstyledButton`](./components/buttons/unstyled-button.md)
 - [Button helpers](./components/buttons/helpers.md)
 
 ### Display
@@ -19,9 +20,13 @@ The `valence-ui-core` library houses all components that are used across both th
 ### Inputs
 - [`InputContainer`](./components/inputs/input-container.md)
 - [`NumberInput`](./components/inputs/number-input.md)
+- [`Switch`](./components/inputs/switch.md)
 - [`TextInput`](./components/inputs/text-input.md)
+- [`Textarea`](./components/inputs/textarea.md)
 
 ### Layout
+- [`Card`](./components/layout/card.md)
+- [`Column`](./components/layout/column.md)
 - [`Flex` & `StyledFlex`](./components/layout/flex.md)
 - [`Header`](./components/layout/header.md)
 - [`Space`](./components/layout/space.md)
