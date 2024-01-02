@@ -1,4 +1,8 @@
-Welcome to the wiki and documentation for Valence UI, the opinionated design library developed by [Isaac Shea](https://isaacshea.com/). This project is still in its infancy stages, so feel free to suggest or take issue with any lacking features, components, or even this documentation itself. 
+Welcome to the documentation for Valence UI, the opinionated design library developed by [Isaac Shea](https://isaacshea.com/).
+
+> **Hey there!** Valence is a project which is in very early stages of its development. This documentation is not updated in-line with the library itself, and fails to mention numerous major changes. You are welcome to use Valence for your own projects, however **I highly advise against this** until at least update 2.0. 
+> 
+> Version 2.0 will be a ground-up rewrite targeted at fixing many of the shortcomings and hard edges of this library, so stay tuned for that.
 
 ## Getting started
 Because Valence has been designed to be usable for developing websites, webapps, and native apps, it has been split into three primary package divisions: Web, App and Native, respectively. Each division differs in features and implementations dramatically, so knowing which one you will use before starting is reasonably important. 
