@@ -9,3 +9,7 @@
 
 * [📱 Getting started](valence-app/getting-started.md)
 * [✍ Using custom fonts](valence-app/using-custom-fonts.md)
+
+## Core Concepts
+
+* [Responsiveness](core-concepts/responsiveness.md)
