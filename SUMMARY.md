@@ -7,7 +7,7 @@
 
 ## Valence App
 
-* [📱 Getting started](valence-app/getting-started.md)
+* [📱 Valence App quick start](valence-app/valence-app-quick-start.md)
 * [✍ Using custom fonts](valence-app/using-custom-fonts.md)
 
 ## Core Concepts

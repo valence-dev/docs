@@ -18,6 +18,8 @@ Discipline packages are optional expansions to the Core packages that provide ut
 
 Valence App is currently the only Discipline package available, and includes components designed specifically for web and native apps.
 
+[valence-app-quick-start.md](../valence-app/valence-app-quick-start.md "mention")
+
 </details>
 
 <details>
