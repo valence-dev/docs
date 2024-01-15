@@ -5,22 +5,7 @@
 * [👋 Welcome to Valence](README.md)
 * [🏄♂ Getting started](overview/getting-started.md)
 
-## Product Guides
+## Valence App
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
-
-## Fundamentals
-
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-
-## Use Cases
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
-
-***
-
-* [Getting started](getting-started.md)
+* [📱 Getting started](valence-app/getting-started.md)
+* [✍ Using custom fonts](valence-app/using-custom-fonts.md)
