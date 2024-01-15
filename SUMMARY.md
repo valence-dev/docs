@@ -1,11 +1,13 @@
 # Table of contents
 
-* [👋 Welcome to A Product](README.md)
+* [Valence UI](README.md)
+* [👋 Welcome to A Product](<README (1).md>)
 
 ## Overview
 
 * [💡 What we do](overview/what-we-do.md)
 * [✨ Our Features](overview/our-features.md)
+* [Getting started](overview/getting-started.md)
 
 ## Product Guides
 
@@ -22,3 +24,7 @@
 
 * [🎨 For Designers](use-cases/for-designers.md)
 * [🖥 For Developers](use-cases/for-developers.md)
+
+***
+
+* [Getting started](getting-started.md)
