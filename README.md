@@ -1,6 +1,6 @@
-# Valence UI
+# 👋 Welcome to Valence
 
-Valence UI is an opinionated design system and React component library designed by Isaac Shea. It is currently in use at [https://threaditor.net/](https://threaditor.net/), and is designed to be completely usable across all platforms.
+Valence is an opinionated design system and React component library designed by Isaac Shea. It is currently in use at [https://threaditor.net/](https://threaditor.net/), and is designed to be completely usable across all platforms.
 
 ### Motivation
 
