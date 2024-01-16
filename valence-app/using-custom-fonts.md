@@ -4,7 +4,7 @@ You may pretty quickly bump up against the fact that Valence will default to usi
 
 > This guide assumes you have followed your chosen Discipline library's Getting Started guide.
 
-1. To start, download and save whichever font/s you want to use in your project. In this example we're going to use [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans), which is available for free on Google Fonts. Relevant styles from this font have been saved to the `src/assets/fonts/` folder in our project directory.
+1. To start, download and save whichever font/s you want to use in your project. In this example we're going to use [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans), which is available for free on Google Fonts. Relevant files from this font have been saved to the `src/assets/fonts/` folder in our project directory.
 2. Then, we're going to define and import the fonts into a `global.css` file, which we will then import. We're going to create the file in `src/assets/css/`, then paste the standard CSS font imports like so:
 
 ```css
