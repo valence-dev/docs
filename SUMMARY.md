@@ -8,6 +8,7 @@
 ## Core Concepts
 
 * [Responsiveness](core-concepts/responsiveness.md)
+* [Color](core-concepts/color.md)
 
 ## Valence App
 
