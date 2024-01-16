@@ -1,4 +1,4 @@
-# 📱 Getting started
+# 📱 Valence App quick start
 
 > **Compatibility note:** Valence App is incompatible with other Discipline packages in the Valence library. For more information about this, see the [Getting Started page](../overview/getting-started.md#about-the-discipline-packages).
 
@@ -11,48 +11,6 @@ To get started, install `@valence-ui/app` and the [Core packages](../overview/ge
 ```bash
 npm install @valence-ui/app @valence-ui/core @valence-ui/utils
 ```
-
-## Adding a global CSS file
-
-For Valence to function correctly, a global CSS file needs to be created to clean up visual issues that are created by default styling from browsers.&#x20;
-
-1. Create a new `global.css` file in your assets director. In this example, we'll save it in `src/assets/css`.&#x20;
-2. Copy and add the following snipped to the file:
-
-```css
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
-}
-
-/* Remove ugly blue autofill color from inputs. */
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  transition: background-color 5000s ease-in-out 0s;
-}
-
-/* Fix the scrollbar styling */
-*::-webkit-scrollbar {
-  width: 10px;
-}
-*::-webkit-scrollbar-thumb {
-  background-color: #11181C20;  
-  border-radius: 5px;
-}
-```
-
-3. Finally, import this file at the top of the root app file (usually `App.tsx` or `App.jsx`):
-
-```tsx
-import "./assets/css/global.css"
-// Other code...
-```
-
-
 
 ## Adding the `ValenceProvider`
 
