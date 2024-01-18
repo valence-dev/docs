@@ -1,10 +1,10 @@
 ---
-description: 'Last updated: v2.0.0 (16/01/2023)'
+description: 'Last updated: 2.0.0 (18/01/2024)'
 ---
 
 # 🍏 The AppContainer
 
-The `AppContainer` is a powerful all-in-one component that, as the name suggests, creates a container in which the content of the app resides. It is designed to be responsive across all device ranges, but takes a great deal of creative liberties in terms of layout and styling.
+The `AppContainer` is an all-in-one component that creates a container in which the content of the app resides. It is designed to be responsive across all device ranges, and is used to implement `Nav`, `Header` and optional `Sidebar` components, but takes a great deal of creative liberties in terms of layout and styling.
 
 ## Usage
 

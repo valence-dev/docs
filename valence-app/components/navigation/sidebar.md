@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: v2.0.0 (16/01/2023)'
+description: 'Last updated: 2.0.0 (16/01/2024)'
 ---
 
 # Sidebar

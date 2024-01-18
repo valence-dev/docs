@@ -1,3 +1,7 @@
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
+
 # 📱 Valence App quick start
 
 > **Compatibility note:** Valence App is incompatible with other Discipline packages in the Valence library. For more information about this, see the [Getting Started page](../overview/getting-started.md#about-the-discipline-packages).

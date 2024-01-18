@@ -1,3 +1,7 @@
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
+
 # Responsiveness
 
 Valence has been designed from the ground up to support responsiveness as a design paradigm. This means that every component's are _responsive_, allowing every component to respond in real-time to the size of the window or device the user is viewing your page on.

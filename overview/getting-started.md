@@ -1,3 +1,7 @@
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
+
 # 🏄♂ Getting started
 
 Valence is designed to be usable across numerous development disciplines, including websites, web-apps, and native applications (via something like Capacitor.JS). These specific use-cases inform Valence's Discipline packages, which are effectively its core.

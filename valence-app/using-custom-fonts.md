@@ -1,3 +1,7 @@
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
+
 # ✍ Using custom fonts
 
 You may pretty quickly bump up against the fact that Valence will default to using your system's fonts.&#x20;

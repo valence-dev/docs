@@ -1,6 +1,10 @@
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
+
 # 👋 Welcome to Valence
 
-Valence is an opinionated design system and React component library designed by Isaac Shea. It is currently in use at [https://threaditor.net/](https://threaditor.net/), and is designed to be completely usable across all platforms.
+Valence is an opinionated design system and React component library designed by Isaac Shea. It is currently in use in [Threaditor](https://threaditor.net/), and is designed to be completely usable across all platforms.
 
 ### Motivation
 

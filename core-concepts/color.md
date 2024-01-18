@@ -1,5 +1,5 @@
 ---
-description: 'Last modified: v2.0.0 (16/01/2023)'
+description: 'Last modified: 2.0.0 (16/01/2024)'
 ---
 
 # Color
