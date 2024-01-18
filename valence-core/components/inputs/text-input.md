@@ -25,9 +25,9 @@ function MyComponent() {
 
 _Extends_ [_`GenericTextInputProps`_](../../generics/generic-input-props.md) _and_ [_`GenericTextInputEventProps`_](../../generics/generic-input-props.md)_._
 
-<table data-full-width="true"><thead><tr><th width="164">Property</th><th width="243">Type</th><th>Description</th></tr></thead><tbody><tr><td>type</td><td><code>TextInputType</code></td><td>The type of input to render. Defaults to <code>text</code>.</td></tr><tr><td>autoComplete</td><td><code>AutoCompleteBehaviour</code></td><td>The autocomplete behaviour to use. Defaults to <code>off</code>.</td></tr><tr><td>multiple</td><td><code>boolean</code></td><td>For <code>type=email</code>, this specifies if this input accepts multiple values.</td></tr><tr><td>grow</td><td><code>boolean</code></td><td>Shorthand for <code>flex-grow = 1</code>.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="164">Property</th><th width="243">Type</th><th>Description</th></tr></thead><tbody><tr><td>type</td><td><a href="text-input.md#textinputtype"><code>TextInputType</code></a></td><td>The type of input to render. Defaults to <code>text</code>.</td></tr><tr><td>autoComplete</td><td><a href="text-input.md#autocompletebehaviour"><code>AutoCompleteBehaviour</code></a></td><td>The autocomplete behavior to use. Defaults to <code>off</code>.</td></tr><tr><td>multiple</td><td><code>boolean</code></td><td>For <code>type=email</code>, this specifies if this input accepts multiple values.</td></tr><tr><td>grow</td><td><code>boolean</code></td><td>Shorthand for <code>flex-grow = 1</code>.</td></tr></tbody></table>
 
-### `TextInputType`
+### TextInputType
 
 Defines the type of input that will be rendered.
 
@@ -35,7 +35,7 @@ Defines the type of input that will be rendered.
 "text" | "password" | "email" | "number" | "tel" | "url" | "search";
 ```
 
-### `AutoCompleteBehaviour`
+### AutoCompleteBehaviour
 
 Defines the type of autocomplete behaviour that will be used.
 

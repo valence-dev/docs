@@ -16,6 +16,7 @@ function MyComponent() {
         <Switch
             value={value}
             setValue={setValue}
+            label="My switch!"
         />
     )
 }

@@ -4,7 +4,9 @@ description: 'Last updated: 2.0.0 (18/01/2024)'
 
 # Primitive button
 
-This is a foundational button component used by most other buttons, but should not be used directly unless you intend to make your own buttons.
+{% hint style="danger" %}
+This is a foundational component and should not be used by itself. Only use this component if you intend to make your own buttons.
+{% endhint %}
 
 ## Usage
 
