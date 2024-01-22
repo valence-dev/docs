@@ -69,3 +69,11 @@ function Demo() {
 
 // etc.
 ```
+
+***
+
+## Props
+
+_Extends_ [_`FlexProps`_](../../valence-core/components/layout/flex/#props)_._
+
+<table data-full-width="true"><thead><tr><th width="212">Property</th><th width="278">Type</th><th>Description</th></tr></thead><tbody><tr><td>children (required)</td><td><code>ReactNode[]</code></td><td></td></tr><tr><td>allowDrag</td><td><code>boolean</code></td><td>Whether to allow the carousel content to be dragged on desktop. <code>true</code> on desktop devices by default.</td></tr><tr><td>showScrollbar</td><td><code>boolean</code></td><td>Whether to show the horizontal scrollbar. <code>false</code> by default.</td></tr><tr><td>snapToChildren</td><td><code>boolean</code></td><td>Whether to snap to the nearest child when no longer scrolling. <code>true</code> by default.</td></tr><tr><td>changeActiveOnScroll</td><td><code>boolean</code></td><td>Whether the active child should be changed during scroll. <code>true</code> by default.</td></tr><tr><td>contentProps</td><td><code>FlexProps</code></td><td>Optional props to pass to the content flex component.</td></tr><tr><td>activeChild</td><td><code>number</code></td><td>The active child of this carousel. For use when controlled.</td></tr><tr><td>setActiveChild</td><td><code>(index: number) => void</code></td><td>Sets the active child of this carousel. For use when controlled.</td></tr><tr><td>showControls</td><td><code>boolean</code></td><td>Whether to the carousel controls. <code>true</code> by default.</td></tr><tr><td>controlIcons</td><td><code>{ prev: ReactNode, next: ReactNode }</code></td><td>Optional overrides for the icons to use for the controls.</td></tr><tr><td>controlButtonProps</td><td><a href="../../valence-core/components/buttons/icon-button.md#props"><code>IconButtonProps</code></a></td><td>Optional props to pass to the control buttons.</td></tr></tbody></table>

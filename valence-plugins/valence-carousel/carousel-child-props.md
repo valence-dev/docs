@@ -14,4 +14,4 @@ Additionally, the active child is "debounced" such that it does not change as fr
 
 **In short, in almost every situation, you should prefer the use of `isActive` over `isNearest`. The latter is included for completeness.**
 
-<figure><img src="../../.gitbook/assets/ezgif.com-video-to-gif-converted.gif" alt=""><figcaption><p>In this example, the outline child is the nearest, and the pink one is active.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ezgif.com-video-to-gif-converted.gif" alt=""><figcaption><p>In this example, the outlined item is the nearest, and the pink one is active.</p></figcaption></figure>
