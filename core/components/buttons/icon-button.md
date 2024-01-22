@@ -1,2 +1,0 @@
-# Icon button
-The `IconButton` is a light wrapper around the [`PrimitiveButton`](./primitive-button.md) that is built specifically for icons. It does not accept any new props, instead setting the `square` prop to be `true` by default.

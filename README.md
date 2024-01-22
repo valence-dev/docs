@@ -1,27 +1,13 @@
-Welcome to the documentation for Valence UI, the opinionated design library developed by [Isaac Shea](https://isaacshea.com/).
+---
+description: 'Last updated: 2.0.0 (16/01/2024)'
+---
 
-> **Hey there!** Valence is a project which is in very early stages of its development. This documentation is not updated in-line with the library itself, and fails to mention numerous major changes. You are welcome to use Valence for your own projects, however **I highly advise against this** until at least update 2.0. 
-> 
-> Version 2.0 will be a ground-up rewrite targeted at fixing many of the shortcomings and hard edges of this library, so stay tuned for that.
+# 👋 Welcome to Valence
 
-## Getting started
-Because Valence has been designed to be usable for developing websites, webapps, and native apps, it has been split into three primary package divisions: Web, App and Native, respectively. Each division differs in features and implementations dramatically, so knowing which one you will use before starting is reasonably important. 
+Valence is an opinionated design system and React component library designed by Isaac Shea. It is currently in use in [Threaditor](https://threaditor.net/), and is designed to be completely usable across all platforms.
 
-### Valence App
-[**Get started**](./app/quick-start.md) | `@valence-ui/app` is currently the only available division, and includes components designed specifically for webapps. 
+### Motivation
 
-### Valence Web (coming soon)
-`@valence-ui/web` will be a division that will provide elements for websites, such as horizontal nav bars, page sections, etc. While it is not strictly incompatible with Valence App, it will contain some elements named the same as it's peer, but implemented very differently (such as the `<Nav>` element).
+&#x20;This library exists to combat shortcomings I (Isaac Shea) had found with other libraries. I had previously been using Mantine for my projects, however found I was re-constructing several core components _on top_ of Mantine, thus eventually decided to start from the bottom with my own design system.
 
-### Valence Native (coming soon)
-Specifically designed for React Native, Valence Native will be a re-implementation of the entire Valence App library using elements from React Native. It will focus on keeping as much of its high-level interface as close to Valence App as possible.
-
-### Other packages
-- [**Valence Core**](./core/README.md) - This package includes components and hooks used across both the App and Web divisions of Valence.
-- [**Valence Utils**](./utils/README.md) - Miscellaneous low-level features and types used across all packages.
- 
-
-## Motivation
-This library was developed because I (Isaac Shea) saw a need to build my own library to suit my own needs. I was previously using [Mantine](https://mantine.dev/), but ended up constructing an entire library of components *on-top* of Mantine to re-style and re-implement components that didn't suit my self-imposed design requirements. Valence is my solution to that, and has been designed to be very opinionated towards the design style I aim for in each project. I don't see this library being of particular use to people who want low-level control over their components, however it may be handy for those looking for a lightweight and pre-styled library that works well enough for them.
-
-This project will likely receive updates as I find and fix bugs, develop features and generally use the library for my own projects, but is open source so that any other people who want to use or help develop it can do so!
+Valence is updated alongside any current projects I work on, and thus closely follows my own personal design sense quite closely. I attempt to build in as much customizability as possible, however sometimes I am too lazy to add granular control.&#x20;
