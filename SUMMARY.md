@@ -78,6 +78,20 @@
 * [📱 Valence App quick start](valence-app/valence-app-quick-start.md)
 * [🍏 The AppContainer](valence-app/the-appcontainer.md)
 * [🧱 Components](valence-app/components/README.md)
+  * [🔘 Buttons](valence-app/components/buttons/README.md)
+    * [FAB](valence-app/components/buttons/fab.md)
+    * [Grid Button](valence-app/components/buttons/grid-button.md)
   * [🗺 Navigation](valence-app/components/navigation/README.md)
     * [Nav](valence-app/components/navigation/nav.md)
     * [Sidebar](valence-app/components/navigation/sidebar.md)
+  * [🔼 Overlays](valence-app/components/overlays/README.md)
+    * [Bottom Sheet](valence-app/components/overlays/bottom-sheet.md)
+    * [Side Sheet](valence-app/components/overlays/side-sheet.md)
+    * [Dynamic Sheet](valence-app/components/overlays/dynamic-sheet.md)
+* [✋ Generics](valence-app/generics/README.md)
+  * [Generic Sheet Props](valence-app/generics/generic-sheet-props.md)
+
+## Valence Plugins
+
+* [🎠 Valence Carousel](valence-plugins/valence-carousel/README.md)
+  * [Carousel Child Props](valence-plugins/valence-carousel/carousel-child-props.md)
