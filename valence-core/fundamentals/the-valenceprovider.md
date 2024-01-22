@@ -8,6 +8,7 @@ The ValenceProvider provides every component in your app with the relevant styli
 
 Within the root app file (usually `App.tsx` or `App.jsx`), import and add the `ValenceProvider`:
 
+{% code title="App.tsx" %}
 ```tsx
 import { ValenceProvider } from "@valence-ui/core"
 
@@ -23,11 +24,13 @@ function App() {
 
 export default App;
 ```
+{% endcode %}
 
 ## Modifying default attributes
 
 Every value that the ValenceProvider supplies to your app can be modified by passing in props to the component:
 
+{% code title="App.tsx" fullWidth="false" %}
 ```tsx
 import { ValenceProvider } from "@valence-ui/core"
 
@@ -50,6 +53,7 @@ function App() {
 
 export default App;
 ```
+{% endcode %}
 
 ## Props
 

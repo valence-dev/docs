@@ -16,26 +16,8 @@ To get started, install `@valence-ui/app` and the [Core packages](../overview/ge
 npm install @valence-ui/app @valence-ui/core @valence-ui/utils
 ```
 
-## Adding the `ValenceProvider`
+## Where to go from here
 
-The `ValenceProvider` provides every component in your app with the relevant styling and default values that they require to function correctly.
-
-Within the root app file (usually `App.tsx` or `App.jsx`), import and add the `ValenceProvider`:
-
-```tsx
-import { ValenceProvider } from "@valence-ui/core"
-
-function App() {
-  return ( 
-    <>
-      <ValenceProvider>
-        {/* Your app here */}
-      </ValenceProvider>
-    </>
-  )
-}
-
-export default App
-```
-
-That's all there is to it! From here, you can start to build out your application.
+* [ ] [**Add a ValenceProvider to your app**](../valence-core/fundamentals/the-valenceprovider.md)
+* [ ] [**Add an AppContainer to your app**](the-appcontainer.md)
+* [ ] _Get started building!_
