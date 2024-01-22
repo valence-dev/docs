@@ -10,7 +10,7 @@ Polymorphism allows select Valence components to take different element form on 
 
 Valence has three primary polymorphic components:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><h4>Polymorphic Button</h4></td><td>Default: <code>button</code></td><td></td></tr><tr><td></td><td><h4>Polymorphic Layout</h4></td><td>Default: <code>div</code></td></tr><tr><td></td><td><h4>Polymorphic Text</h4></td><td>Default: <code>p</code></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Polymorphic Button</h4></td><td>Default: <code>button</code></td><td></td><td><a href="../valence-utils/polymorphism/polymorphic-button.md">polymorphic-button.md</a></td></tr><tr><td></td><td><h4>Polymorphic Layout</h4></td><td>Default: <code>div</code></td><td><a href="../valence-utils/polymorphism/polymorphic-layout.md">polymorphic-layout.md</a></td></tr><tr><td></td><td><h4>Polymorphic Text</h4></td><td>Default: <code>p</code></td><td><a href="../valence-utils/polymorphism/polymorphic-text.md">polymorphic-text.md</a></td></tr></tbody></table>
 
 ## Usage
 
