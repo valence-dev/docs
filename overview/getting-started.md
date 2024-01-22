@@ -16,24 +16,10 @@ Discipline packages are optional expansions to the Core packages that provide ut
 
 > While it is recommended to use one Discipline package in your project, you can just use the Core packages, then build out your own Discipline package/s for your own use case.
 
-<details>
-
-<summary>Valence App</summary>
-
-Valence App is currently the only Discipline package available, and includes components designed specifically for web and native apps.
-
-[valence-app-quick-start.md](../valence-app/valence-app-quick-start.md "mention")
-
-</details>
-
-<details>
-
-<summary>Valence Web</summary>
-
-Valence Web is a theoretical second Discipline package, and would include components specifically designed for website environments.
-
-</details>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Valence App</h4></td><td>Components and UI patterns designed specifically for webapp and native app environments.</td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td><h4>Valence Web</h4></td><td><em>(coming soon)</em></td><td></td></tr></tbody></table>
 
 ## About the Plugin packages
 
 Plugin packages are the third level of Valence packages, and are completely optional. They provide specific and sometimes niche utilities and components, and are designed to be compatible with all Discipline packages, unless otherwise specified.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Valence Carousel</h4></td><td>A custom horizontal carousel component designed for maximum usability in desktop and mobile environments.</td><td></td><td><a href="../valence-plugins/valence-carousel/">valence-carousel</a></td></tr></tbody></table>

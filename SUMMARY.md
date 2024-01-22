@@ -10,6 +10,7 @@
 * [Responsiveness](core-concepts/responsiveness.md)
 * [Color](core-concepts/color/README.md)
   * [Color types](core-concepts/color/color-types.md)
+* [Polymorphism](core-concepts/polymorphism.md)
 
 ## Valence Core
 
@@ -95,3 +96,18 @@
 
 * [🎠 Valence Carousel](valence-plugins/valence-carousel/README.md)
   * [Carousel Child Props](valence-plugins/valence-carousel/carousel-child-props.md)
+
+## Valence Utils
+
+* [✋ Generics](valence-utils/generics/README.md)
+  * [Clickable](valence-utils/generics/clickable.md)
+  * [Events](valence-utils/generics/events.md)
+  * [Global](valence-utils/generics/global.md)
+  * [Grid](valence-utils/generics/grid.md)
+  * [Layout](valence-utils/generics/layout.md)
+  * [Overlay](valence-utils/generics/overlay.md)
+  * [Polymorphic](valence-utils/generics/polymorphic.md)
+* [🧜♀ Polymorphism](valence-utils/polymorphism/README.md)
+  * [Polymorphic Button](valence-utils/polymorphism/polymorphic-button.md)
+  * [Polymorphic Layout](valence-utils/polymorphism/polymorphic-layout.md)
+  * [Polymorphic Text](valence-utils/polymorphism/polymorphic-text.md)
