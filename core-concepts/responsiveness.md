@@ -62,6 +62,10 @@ This is called "expanded form", and when like this the `default` parameter is re
 
 ## Making a component responsive
 
+{% hint style="info" %}
+Main article: [UseResponsiveProps](../valence-core/hooks/useresponsiveprops.md).
+{% endhint %}
+
 Valence exposes a critical type that allows for all of a component's props to become responsive; `MakeResponsive`. This type will transform any type into a `Responsive` type, allowing you to give it custom props based on common device breakpoints.
 
 Valence also exposes the `useResponsiveProps()` hook, which can be used to de-structure a component's props such that the correct prop for the current breakpoint is returned.&#x20;
@@ -104,23 +108,6 @@ export function MyApp() {
 Running the code above, you'll find that `MyComponent` will log one of the sizes, depending on the current screen breakpoint. You can see this in action by increasing or decreasing the width of your window.&#x20;
 
 While the above example is mundane, it demonstrates a powerful feature of the `MakeResponsive` type and `useResponsiveProps` hook, and that is to take a mundane type and make it responsive.
-
-## De-structuring responsive props
-
-You may find that, during the de-structuring process, you need to define responsive behavior for a prop by default. To do so, another custom hook, `useResponsiveProp()` must be invoked:
-
-```tsx
-export function MyComponent(props: MakeResponsive<MyComponentProps>) { 
-    const { 
-        size = useResponsiveProp({
-            default: 20,
-            mobile: 15,
-            tablet: 17
-        })
-    } = useResponsiveProps<MyComponentProps>(props);
-```
-
-The `useResponsiveProp` hook is nearly identical to the `useResponsiveProps` hook (note the extra `s`), except that the former will only calculate the correct value for an individual prop, not a complete object's worth.
 
 ## Modifying breakpoints
 

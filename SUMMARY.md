@@ -8,20 +8,14 @@
 ## Core Concepts
 
 * [Responsiveness](core-concepts/responsiveness.md)
-* [Color](core-concepts/color.md)
-
-## Valence App
-
-* [📱 Valence App quick start](valence-app/valence-app-quick-start.md)
-* [✍ Using custom fonts](valence-app/using-custom-fonts.md)
-* [🍏 The AppContainer](valence-app/the-appcontainer.md)
-* [🧱 Components](valence-app/components/README.md)
-  * [🗺 Navigation](valence-app/components/navigation/README.md)
-    * [Nav](valence-app/components/navigation/nav.md)
-    * [Sidebar](valence-app/components/navigation/sidebar.md)
+* [Color](core-concepts/color/README.md)
+  * [Color types](core-concepts/color/color-types.md)
 
 ## Valence Core
 
+* [🏃♂ Fundamentals](valence-core/fundamentals/README.md)
+  * [🎬 The ValenceProvider](valence-core/fundamentals/the-valenceprovider.md)
+  * [✍ Using custom fonts](valence-core/fundamentals/using-custom-fonts.md)
 * [🧱 Components](valence-core/components/README.md)
   * [🔘 Buttons](valence-core/components/buttons/README.md)
     * [Text button](valence-core/components/buttons/text-button.md)
@@ -62,7 +56,28 @@
     * [Header](valence-core/components/layout/header.md)
     * [Outline Container](valence-core/components/layout/outline-container.md)
     * [Space](valence-core/components/layout/space.md)
-* [🪝 Hooks](valence-core/hooks.md)
+  * [🔼 Overlays](valence-core/components/overlays/README.md)
+    * [Modal](valence-core/components/overlays/modal.md)
+    * [Tooltip](valence-core/components/overlays/tooltip.md)
+    * [Modal background](valence-core/components/overlays/modal-background.md)
+* [🪝 Hooks](valence-core/hooks/README.md)
+  * [UseColorScheme](valence-core/hooks/usecolorscheme.md)
+  * [UseControlledList](valence-core/hooks/usecontrolledlist.md)
+  * [UseDetectKeyDown](valence-core/hooks/usedetectkeydown.md)
+  * [UseDisclosure](valence-core/hooks/usedisclosure.md)
+  * [UseTooltip](valence-core/hooks/usetooltip.md)
+  * [UseColors](valence-core/hooks/usecolors.md)
+  * [UseBreakpoint](valence-core/hooks/usebreakpoint.md)
+  * [UseResponsiveProps](valence-core/hooks/useresponsiveprops.md)
 * [🤚 Generics](valence-core/generics/README.md)
   * [Generic button props](valence-core/generics/generic-button-props.md)
   * [Generic input props](valence-core/generics/generic-input-props.md)
+
+## Valence App
+
+* [📱 Valence App quick start](valence-app/valence-app-quick-start.md)
+* [🍏 The AppContainer](valence-app/the-appcontainer.md)
+* [🧱 Components](valence-app/components/README.md)
+  * [🗺 Navigation](valence-app/components/navigation/README.md)
+    * [Nav](valence-app/components/navigation/nav.md)
+    * [Sidebar](valence-app/components/navigation/sidebar.md)

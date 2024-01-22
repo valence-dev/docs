@@ -13,6 +13,10 @@ Valence makes use of a powerful yet unconventional color system that uses opacit
 
 ## The `useColors` hook
 
+{% hint style="info" %}
+Main article: [UseColors](../../valence-core/hooks/usecolors.md).
+{% endhint %}
+
 The `useColors` hook allows easy access to Valence's color palette, and exposes four unique functions that can be utilized in your code:
 
 1. `getSwatch()` - Retrieves a swatch of a color from the palette, based on the color scheme the user has elected to use.

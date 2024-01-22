@@ -50,7 +50,7 @@ function MyComponent() {
 ```
 
 {% hint style="info" %}
-The font family will need to be correctly installed before use. [See more](../../../valence-app/using-custom-fonts.md).
+The font family will need to be correctly installed before use. [See more](../../fundamentals/using-custom-fonts.md).
 {% endhint %}
 
 ### Styles
