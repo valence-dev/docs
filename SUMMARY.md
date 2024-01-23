@@ -111,3 +111,7 @@
   * [Polymorphic Button](valence-utils/polymorphism/polymorphic-button.md)
   * [Polymorphic Layout](valence-utils/polymorphism/polymorphic-layout.md)
   * [Polymorphic Text](valence-utils/polymorphism/polymorphic-text.md)
+
+## Update Notes
+
+* [2.0.0](update-notes/2.0.0.md)
