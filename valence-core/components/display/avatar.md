@@ -1,5 +1,5 @@
 ---
-description: 'Last update: 2.0.0 (21/01/2024)'
+description: 'Last update: 2.1.0 (30/01/2024)'
 ---
 
 # Avatar
@@ -58,7 +58,7 @@ function MyComponent() {
 }
 ```
 
-### Customising the placeholder
+### Customizing the placeholder
 
 ```tsx
 import { Avatar } from "@valence-ui/core";
@@ -81,4 +81,12 @@ function MyComponent() {
 
 _Extends_ [_`ImageProps`_](image.md#props)_._
 
-<table data-full-width="true"><thead><tr><th width="182">Property</th><th width="255">Type</th><th>Description</th></tr></thead><tbody><tr><td>placeholderColor</td><td><code>CSSProperties["color"]</code></td><td>Placeholder color for this avatar.</td></tr><tr><td>variant</td><td><code>FillVariant</code></td><td>Defines the fill variant for this avatar. Defaults to theme default fill variant.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="201.8571428571429">Property</th><th width="179">Type</th><th>Description</th></tr></thead><tbody><tr><td>variant</td><td><code>FillVariant</code></td><td>Defines the fill variant for this avatar. Defaults to theme default.</td></tr><tr><td>size</td><td><code>ComponentSize</code></td><td>Defines the size of this avatar. Defaults to theme default.</td></tr><tr><td>outline</td><td><code>boolean</code></td><td>Whether to render an outline in the placeholder.</td></tr><tr><td>secondaryIcon</td><td><code>ReactNode</code></td><td>An optional secondary icon to display near the avatar.</td></tr><tr><td>secondaryIconProps</td><td><a href="icon.md#props"><code>IconProps</code></a></td><td>Props to apply to the secondary icon, if it exists.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **2.1.0:**&#x20;
+  * Removed `placeholderColor` prop; use `color` instead.
+  * Added `size`, `outline`, `secondaryIcon` and `secondaryIconProps` props.
