@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (18/01/2024)'
+description: 'Last updated: 2.1.0 (30/01/2024)'
 ---
 
 # Multi-part button
@@ -71,3 +71,9 @@ function MyComponent() {
 _Extends_ [_`PrimitiveButtonProps`_](primitive-button.md#props)_._
 
 <table data-full-width="true"><thead><tr><th width="171">Property</th><th width="132">Type</th><th>Description</th></tr></thead><tbody><tr><td>title (required)</td><td><code>string</code></td><td>Title/main text content of this button.</td></tr><tr><td>subtitle</td><td><code>string</code></td><td>Descriptive secondary text of this button.</td></tr><tr><td>leftIcon</td><td><code>ReactNode</code></td><td>Icon to display on the left of the button.</td></tr><tr><td>rightIcon</td><td><code>ReactNode</code></td><td>Icon to display on the right of the button.</td></tr><tr><td>titleProps</td><td><code>TextProps</code></td><td>Props to pass to the title text component.</td></tr><tr><td>subtitleProps</td><td><code>TextProps</code></td><td>Props to pass to the subtitle text component.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **2.1.0:** the `leftIcon` and `rightIcon` props can support multiple sub-components.

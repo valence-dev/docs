@@ -42,9 +42,11 @@
     * [Icon](valence-core/components/display/icon.md)
     * [Image](valence-core/components/display/image.md)
     * [Avatar](valence-core/components/display/avatar.md)
+    * [Avatar Group](valence-core/components/display/avatar-group.md)
     * [Loader](valence-core/components/display/loader.md)
     * [Pill](valence-core/components/display/pill.md)
     * [Spoiler](valence-core/components/display/spoiler.md)
+    * [Stepper](valence-core/components/display/stepper.md)
     * [Text](valence-core/components/display/text.md)
     * [Title](valence-core/components/display/title.md)
   * [🧩 Layout](valence-core/components/layout/README.md)
@@ -114,4 +116,5 @@
 
 ## Update Notes
 
+* [2.1.0](update-notes/2.1.0.md)
 * [2.0.0](update-notes/2.0.0.md)
