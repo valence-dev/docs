@@ -25,6 +25,10 @@ function MyComponent() {
 }
 ```
 
+{% hint style="info" %}
+Uncontrolled Tooltips will not show on [mobile breakpoints](../../../core-concepts/responsiveness.md).&#x20;
+{% endhint %}
+
 ### Controlled
 
 The Tooltip be used in a controlled fashion using the `useDisclosure` hook. The Tooltip will automatically hide when clicked away from (i.e. another element is focused), regardless of whether or not it is controlled.
@@ -99,3 +103,9 @@ _Extends_ [_`TooltipOptions`_](../../hooks/usetooltip.md)_._
 _Extends_ [_`StyledFlexProps`_](../layout/flex/styled-flex.md#props)_._
 
 <table data-full-width="true"><thead><tr><th width="185">Property</th><th width="263">Type</th><th>Description</th></tr></thead><tbody><tr><td>children (required)</td><td><code>string | ReactNode</code></td><td></td></tr><tr><td>withShadow</td><td><code>boolean</code></td><td>Whether to display a shadow underneath the tooltip.</td></tr><tr><td>zIndex</td><td><code>CSSProperties["zIndex"]</code></td><td>The z-index of the tooltip.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **2.2.0:** Uncontrolled tooltips will no longer show on [mobile breakpoints](../../hooks/usebreakpoint.md). Controlled tooltips (i.e. those that accept the `disclosure` prop) are unaffected.

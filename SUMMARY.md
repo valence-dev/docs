@@ -58,6 +58,7 @@
     * [Card](valence-core/components/layout/card.md)
     * [Header](valence-core/components/layout/header.md)
     * [Outline Container](valence-core/components/layout/outline-container.md)
+    * [Overflow Container](valence-core/components/layout/overflow-container.md)
     * [Space](valence-core/components/layout/space.md)
   * [🔼 Overlays](valence-core/components/overlays/README.md)
     * [Modal](valence-core/components/overlays/modal.md)
@@ -116,5 +117,6 @@
 
 ## Update Notes
 
+* [2.2.0](update-notes/2.2.0.md)
 * [2.1.0](update-notes/2.1.0.md)
 * [2.0.0](update-notes/2.0.0.md)

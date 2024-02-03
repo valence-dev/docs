@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 2.2.0 (02/02/2024)'
 ---
 
 # Modal
@@ -104,4 +104,10 @@ For more information about the accepted props, see Modal Background.
 
 _Extends `GenericOverlayProps`._
 
-<table data-full-width="true"><thead><tr><th width="203">Property</th><th width="145">Type</th><th>Description</th></tr></thead><tbody><tr><td>disclosure (required)</td><td><code>Disclosure</code></td><td>A disclosure to handle state information about this modal.</td></tr><tr><td>flexProps</td><td><a href="../layout/flex/#props"><code>FlexProps</code></a></td><td>Optional props to pass to the flex component.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="203">Property</th><th width="145">Type</th><th>Description</th></tr></thead><tbody><tr><td>disclosure (required)</td><td><code>Disclosure</code></td><td>A disclosure to handle state information about this modal.</td></tr><tr><td>flexProps</td><td><a href="../layout/flex/#props"><code>FlexProps</code></a></td><td>Optional props to pass to the flex component.</td></tr><tr><td>innerFlexProps</td><td><code>FlexProps</code></td><td>Optional props to pass to the inner flex component.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **2.2.0** - Changed how internal scrolling works; added `innerFlexProps`

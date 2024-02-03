@@ -1,11 +1,11 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 2.2.0 (02/02/2024)'
 ---
 
 # Side Sheet
 
 {% hint style="info" %}
-The Bottom Sheet is best used on desktop devices, thus it is suggested to use the Dynamic Sheet component instead.
+The Side Sheet is best used on desktop devices, thus it is suggested to use the Dynamic Sheet component instead.
 {% endhint %}
 
 The Side Sheet is an aside that can be used to place optional content to the right of the main page's content. It is best used for complex or specific actions that are unsuitable for the primary content on the page.
@@ -82,10 +82,16 @@ function MyComponent() {
 
 Extends [`GenericSheetProps`](../../generics/generic-sheet-props.md#genericsheetprops).
 
-<table data-full-width="true"><thead><tr><th width="119">Property</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>display</td><td><a href="side-sheet.md#sidesheetdisplay"><code>SideSheetDisplay</code></a></td><td>The display option for the sidebar. Defaults to <code>"inline"</code> on desktop and bigger, and <code>"overlay"</code> on mobile and smaller.</td></tr><tr><td>direction</td><td><code>"left" | "right"</code></td><td>The direction that this sidebar will appear from. Direction will only be adhered to if the display type is <code>"overlay"</code>. Otherwise, it will be <code>"right"</code> by default.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="149.7981308411215">Property</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>display</td><td><a href="side-sheet.md#sidesheetdisplay"><code>SideSheetDisplay</code></a></td><td>The display option for the sidebar. Defaults to <code>"inline"</code> on desktop and bigger, and <code>"overlay"</code> on mobile and smaller.</td></tr><tr><td>direction</td><td><code>"left" | "right"</code></td><td>The direction that this sidebar will appear from. Direction will only be adhered to if the display type is <code>"overlay"</code>. Otherwise, it will be <code>"right"</code> by default.</td></tr><tr><td>innerFlexProps</td><td><code>FlexProps</code></td><td>Optional props to pass to the inner flex component.</td></tr></tbody></table>
 
 ### SideSheetDisplay
 
 ```tsx
 type SideSheetDisplay = "inline" | "overlay";
 ```
+
+***
+
+## Changelog
+
+* **2.2.0** - Reworked internal scrolling; added `innerFlexProps` prop.
