@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (21/01/2024)'
+description: 'Last updated: 2.2.0 (03/02/2024)'
 layout:
   title:
     visible: true
@@ -82,11 +82,12 @@ function MyComponent() {
 
 ## Supported markdown attributes
 
-* `\n` - line break/newline
+* &#x20;\- line break/newline
 * `***{...}***` - bold & italicized text
 * `**{...}**` - bold text
 * `*{...}*` - italicized text
 * `` `{...}` `` - monospace text
+* `<hl>{...}</hl>` - highlighted text
 
 ***
 
@@ -94,4 +95,10 @@ function MyComponent() {
 
 Extends `GenericProps`, `GenericClickableProps` and `PolymorphicTextProps`.
 
-<table data-full-width="true"><thead><tr><th width="145">Property</th><th width="332">Type</th><th>Description</th></tr></thead><tbody><tr><td>family</td><td><code>CSSProperties["fontFamily"]</code></td><td>Sets <code>font-family</code> css property.</td></tr><tr><td>weight</td><td><code>CSSProperties["fontWeight"]</code></td><td>Sets <code>font-weight</code> css property.</td></tr><tr><td>fontSize</td><td><code>CSSProperties["fontSize"]</code></td><td>Sets <code>font-size</code> css property.</td></tr><tr><td>align</td><td><code>CSSProperties["textAlign"]</code></td><td>Sets <code>text-align</code> css property.</td></tr><tr><td>transform</td><td><code>CSSProperties["textTransform"]</code></td><td>Sets <code>text-transform</code> css property.</td></tr><tr><td>size</td><td><code>ComponentSize</code></td><td>Sets the size of the text.</td></tr><tr><td>color</td><td><code>CSSProperties["color"]</code></td><td>Sets <code>color</code> css property.</td></tr><tr><td>italic</td><td><code>boolean</code></td><td>Shorthand for <code>font-style: italic</code>.</td></tr><tr><td>bold</td><td><code>boolean</code></td><td>Shorthand for <code>font-weight: 800</code>.</td></tr><tr><td>monospace</td><td><code>boolean</code></td><td>Shorthand for <code>font-family: monospace</code>.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="158">Property</th><th width="337.54062038404726">Type</th><th>Description</th></tr></thead><tbody><tr><td>family</td><td><code>CSSProperties["fontFamily"]</code></td><td>Sets <code>font-family</code> css property.</td></tr><tr><td>weight</td><td><code>CSSProperties["fontWeight"]</code></td><td>Sets <code>font-weight</code> css property.</td></tr><tr><td>fontSize</td><td><code>CSSProperties["fontSize"]</code></td><td>Sets <code>font-size</code> css property.</td></tr><tr><td>align</td><td><code>CSSProperties["textAlign"]</code></td><td>Sets <code>text-align</code> css property.</td></tr><tr><td>transform</td><td><code>CSSProperties["textTransform"]</code></td><td>Sets <code>text-transform</code> css property.</td></tr><tr><td>size</td><td><code>ComponentSize</code></td><td>Sets the size of the text.</td></tr><tr><td>color</td><td><code>CSSProperties["color"]</code></td><td>Sets <code>color</code> css property.</td></tr><tr><td>italic</td><td><code>boolean</code></td><td>Shorthand for <code>font-style: italic</code>.</td></tr><tr><td>bold</td><td><code>boolean</code></td><td>Shorthand for <code>font-weight: 800</code>.</td></tr><tr><td>monospace</td><td><code>boolean</code></td><td>Shorthand for <code>font-family: monospace</code>.</td></tr><tr><td>highlightColor</td><td><code>CSSProperties["color"]</code></td><td>Sets the color of highlighted sections.</td></tr><tr><td>highlightStyle</td><td><code>CSSProperties</code></td><td>Optional styles to pass to highlighted sections.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **2.2.0:** Added the `<hl>` syntax, and the `highlightColor` and `highlightStyle` props.
