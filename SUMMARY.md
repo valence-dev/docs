@@ -3,7 +3,7 @@
 ## Overview
 
 * [👋 Welcome to Valence](README.md)
-* [🏄♂ Getting started](overview/getting-started.md)
+* [🏄‍♂️ Getting started](overview/getting-started.md)
 
 ## Core Concepts
 
@@ -14,9 +14,9 @@
 
 ## Valence Core
 
-* [🏃♂ Fundamentals](valence-core/fundamentals/README.md)
+* [🏃‍♂️ Fundamentals](valence-core/fundamentals/README.md)
   * [🎬 The ValenceProvider](valence-core/fundamentals/the-valenceprovider.md)
-  * [✍ Using custom fonts](valence-core/fundamentals/using-custom-fonts.md)
+  * [✍️ Using custom fonts](valence-core/fundamentals/using-custom-fonts.md)
 * [🧱 Components](valence-core/components/README.md)
   * [🔘 Buttons](valence-core/components/buttons/README.md)
     * [Text button](valence-core/components/buttons/text-button.md)
@@ -25,7 +25,7 @@
     * [Multi-part button](valence-core/components/buttons/multi-part-button.md)
     * [Un-styled button](valence-core/components/buttons/un-styled-button.md)
     * [Primitive button](valence-core/components/buttons/primitive-button.md)
-  * [⌨ Inputs](valence-core/components/inputs/README.md)
+  * [⌨️ Inputs](valence-core/components/inputs/README.md)
     * [Text input](valence-core/components/inputs/text-input.md)
     * [Text area](valence-core/components/inputs/text-area.md)
     * [Number input](valence-core/components/inputs/number-input.md)
@@ -36,7 +36,7 @@
     * [Pill selector](valence-core/components/inputs/pill-selector.md)
     * [Input container](valence-core/components/inputs/input-container.md)
     * [Dropdown container](valence-core/components/inputs/dropdown-container.md)
-  * [🖥 Display](valence-core/components/display/README.md)
+  * [🖥️ Display](valence-core/components/display/README.md)
     * [Accordion](valence-core/components/display/accordion.md)
     * [Alert](valence-core/components/display/alert.md)
     * [Icon](valence-core/components/display/icon.md)
@@ -85,7 +85,7 @@
   * [🔘 Buttons](valence-app/components/buttons/README.md)
     * [FAB](valence-app/components/buttons/fab.md)
     * [Grid Button](valence-app/components/buttons/grid-button.md)
-  * [🗺 Navigation](valence-app/components/navigation/README.md)
+  * [🗺️ Navigation](valence-app/components/navigation/README.md)
     * [Nav](valence-app/components/navigation/nav.md)
     * [Sidebar](valence-app/components/navigation/sidebar.md)
   * [🔼 Overlays](valence-app/components/overlays/README.md)
@@ -110,13 +110,14 @@
   * [Layout](valence-utils/generics/layout.md)
   * [Overlay](valence-utils/generics/overlay.md)
   * [Polymorphic](valence-utils/generics/polymorphic.md)
-* [🧜♀ Polymorphism](valence-utils/polymorphism/README.md)
+* [🧜‍♀️ Polymorphism](valence-utils/polymorphism/README.md)
   * [Polymorphic Button](valence-utils/polymorphism/polymorphic-button.md)
   * [Polymorphic Layout](valence-utils/polymorphism/polymorphic-layout.md)
   * [Polymorphic Text](valence-utils/polymorphism/polymorphic-text.md)
 
 ## Update Notes
 
+* [2.3.0](update-notes/2.3.0.md)
 * [2.2.0](update-notes/2.2.0.md)
 * [2.1.0](update-notes/2.1.0.md)
 * [2.0.0](update-notes/2.0.0.md)
