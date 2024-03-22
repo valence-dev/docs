@@ -117,6 +117,7 @@
 
 ## Update Notes
 
+* [2.4.0](update-notes/2.4.0.md)
 * [2.3.0](update-notes/2.3.0.md)
 * [2.2.0](update-notes/2.2.0.md)
 * [2.1.0](update-notes/2.1.0.md)
