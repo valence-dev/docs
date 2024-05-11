@@ -23,9 +23,10 @@
     * [Icon button](valence-core/components/buttons/icon-button.md)
     * [Button with icon](valence-core/components/buttons/button-with-icon.md)
     * [Multi-part button](valence-core/components/buttons/multi-part-button.md)
-    * [Un-styled button](valence-core/components/buttons/un-styled-button.md)
+    * [Unstyled button](valence-core/components/buttons/un-styled-button.md)
     * [Primitive button](valence-core/components/buttons/primitive-button.md)
   * [⌨️ Inputs](valence-core/components/inputs/README.md)
+    * [Color Picker](valence-core/components/inputs/color-picker.md)
     * [Text input](valence-core/components/inputs/text-input.md)
     * [Text area](valence-core/components/inputs/text-area.md)
     * [Number input](valence-core/components/inputs/number-input.md)
@@ -39,6 +40,7 @@
   * [🖥️ Display](valence-core/components/display/README.md)
     * [Accordion](valence-core/components/display/accordion.md)
     * [Alert](valence-core/components/display/alert.md)
+    * [Color Swatch](valence-core/components/display/color-swatch.md)
     * [Icon](valence-core/components/display/icon.md)
     * [Image](valence-core/components/display/image.md)
     * [Avatar](valence-core/components/display/avatar.md)
@@ -117,6 +119,7 @@
 
 ## Update Notes
 
+* [2.5.0](update-notes/2.5.0.md)
 * [2.4.0](update-notes/2.4.0.md)
 * [2.3.0](update-notes/2.3.0.md)
 * [2.2.0](update-notes/2.2.0.md)

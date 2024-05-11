@@ -1,8 +1,8 @@
 ---
-description: 'Last updated: 2.0.0 (18/01/2024)'
+description: 'Last updated: 2.5.0 (11/05/2024)'
 ---
 
-# Un-styled button
+# Unstyled button
 
 A very basic button component devoid of _all_ style, including the native browser-applied styles. Useful for building very unusual buttons.
 
@@ -28,4 +28,4 @@ function MyComponent() {
 
 _Extends `GenericClickableProps`, `GenericClickableEventProps`, `PolymorphicButtonProps`, `GenericLayoutProps`._
 
-_No unique props._
+<table data-full-width="true"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>motion</td><td><code>MotionBehaviourProps</code></td><td>Defines motion behavior for this button. This will automatically be overridden if the user has reduced motion enabled on their device.</td></tr></tbody></table>
