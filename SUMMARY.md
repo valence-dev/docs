@@ -9,6 +9,7 @@
 
 * [Responsiveness](core-concepts/responsiveness.md)
 * [Color](core-concepts/color/README.md)
+  * [List of colors](core-concepts/color/list-of-colors.md)
   * [Color types](core-concepts/color/color-types.md)
 * [Polymorphism](core-concepts/polymorphism.md)
 
@@ -119,6 +120,7 @@
 
 ## Update Notes
 
+* [2.6.0](update-notes/2.6.0.md)
 * [2.5.0](update-notes/2.5.0.md)
 * [2.4.0](update-notes/2.4.0.md)
 * [2.3.0](update-notes/2.3.0.md)

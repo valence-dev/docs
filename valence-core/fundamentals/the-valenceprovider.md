@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 2.6.0 (09/06/2024)'
 ---
 
 # 🎬 The ValenceProvider
@@ -61,7 +61,7 @@ export default App;
 
 <summary>colors</summary>
 
-**Type:**&#x20;
+**Type:**
 
 `Color[]`
 
@@ -79,7 +79,7 @@ A list of all colors to use.
 
 <summary>primaryColor</summary>
 
-**Type:**&#x20;
+**Type:**
 
 `string`
 
@@ -90,6 +90,24 @@ A list of all colors to use.
 **Description:**
 
 The primary color to default upon.
+
+</details>
+
+<details>
+
+<summary>preferredColorScheme</summary>
+
+**Type:**
+
+`PreferrableColorScheme` (`"light" | "dark" | "system"`)
+
+**Default value:**
+
+`"system"`
+
+**Description:**
+
+The user's preferred color scheme.
 
 </details>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 2.6.0 (09/06/2024)'
 ---
 
 # UseColorScheme
@@ -28,10 +28,16 @@ function MyComponent() {
 
 ## Return type
 
-<table data-full-width="true"><thead><tr><th width="157">Attribute</th><th width="159">Type</th><th>Description</th></tr></thead><tbody><tr><td>colorScheme</td><td><code>ColorScheme</code></td><td>The color scheme.</td></tr><tr><td>isDarkMode</td><td><code>boolean</code></td><td>Is the color scheme <code>"dark"</code>?</td></tr><tr><td>isLightMode</td><td><code>boolean</code></td><td>Is thecolor scheme <code>"light"</code>?</td></tr><tr><td>toggle</td><td><code>() => void</code></td><td>Toggle the color scheme.</td></tr><tr><td>setDark</td><td><code>() => void</code></td><td>Set the color scheme to <code>"dark"</code>.</td></tr><tr><td>setLight</td><td><code>() => void</code></td><td>Set the color scheme to <code>"light"</code>.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="188.82364341085272">Attribute</th><th width="159">Type</th><th>Description</th></tr></thead><tbody><tr><td>colorScheme</td><td><code>ColorScheme</code></td><td>The color scheme.</td></tr><tr><td>isDarkMode</td><td><code>boolean</code></td><td>Is the color scheme <code>"dark"</code>?</td></tr><tr><td>isLightMode</td><td><code>boolean</code></td><td>Is the color scheme <code>"light"</code>?</td></tr><tr><td>isFollowingSystem</td><td><code>boolean</code></td><td>Is the color scheme following the system theme?</td></tr></tbody></table>
 
 ### ColorScheme
 
 ```typescript
 type ColorScheme = "light" | "dark";
 ```
+
+### Changelog
+
+#### 2.6.0
+
+* Removed `toggle`, `setDark` and `setLight`; added `isFollowingSystem`
