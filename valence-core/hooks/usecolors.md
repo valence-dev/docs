@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 2.7.0 (16/06/2024)'
 ---
 
 # UseColors
@@ -35,4 +35,8 @@ function MyComponent() {
 
 ## Return type
 
-<table data-full-width="true"><thead><tr><th width="135">Attribute</th><th width="405">Type</th><th>Description</th></tr></thead><tbody><tr><td>getSwatch</td><td><code>(key: string | undefined):</code> <a href="../../core-concepts/color/color-types.md#swatchopacity"><code>Swatch</code></a> <code>| undefined</code></td><td>Gets the swatch for the given color key. If the color does not exist, this will return <code>undefined</code>.</td></tr><tr><td>getHex</td><td><code>(key: string | undefined, opacity?:</code> <a href="../../core-concepts/color/color-types.md#swatchopacity"><code>SwatchOpacity</code></a><code>): string | undefined</code></td><td>Gets the hex code for the given color key. If the color does not exist, this will return the key as-is.</td></tr><tr><td>getBgHex</td><td><code>(key: string, variant?: FillVariant, hovered?: boolean): string | undefined</code></td><td>Gets the most suitable background color, based upon the supplied parameters.</td></tr><tr><td>getFgHex</td><td><code>(key: string, variant?: FillVariant): string | undefined</code></td><td>Gets the most suitable foreground color, based upon the supplied parameters.</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="135">Attribute</th><th width="405">Type</th><th>Description</th></tr></thead><tbody><tr><td>getSwatch</td><td><code>(key: string | undefined):</code> <a href="../../core-concepts/color/color-types.md#swatchopacity"><code>Swatch</code></a> <code>| undefined</code></td><td>Gets the swatch for the given color key. If the color does not exist, this will return <code>undefined</code>.</td></tr><tr><td>getHex</td><td><code>(key: string | undefined, opacity?:</code> <a href="../../core-concepts/color/color-types.md#swatchopacity"><code>SwatchOpacity</code></a><code>): string | undefined</code></td><td>Gets the hex code for the given color key. If the color does not exist, this will return the key as-is.</td></tr><tr><td>getBgHex</td><td><code>(key: string, variant?: FillVariant, hovered?: boolean): string | undefined</code></td><td>Gets the most suitable background color, based upon the supplied parameters.</td></tr><tr><td>getBorderHex</td><td><code>(key: string, variant?: FillVariant, focused?: boolean)</code></td><td>Gets the most suitable border color, based upon the supplied parameters.</td></tr><tr><td>getFgHex</td><td><code>(key: string, variant?: FillVariant): string | undefined</code></td><td>Gets the most suitable foreground color, based upon the supplied parameters.</td></tr></tbody></table>
+
+### Changelog
+
+* **2.7.0:** added the `getBorderHex` method.

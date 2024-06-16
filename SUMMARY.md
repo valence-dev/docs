@@ -69,11 +69,11 @@
     * [Modal background](valence-core/components/overlays/modal-background.md)
 * [🪝 Hooks](valence-core/hooks/README.md)
   * [UseColorScheme](valence-core/hooks/usecolorscheme.md)
+  * [UseColors](valence-core/hooks/usecolors.md)
   * [UseControlledList](valence-core/hooks/usecontrolledlist.md)
   * [UseDetectKeyDown](valence-core/hooks/usedetectkeydown.md)
   * [UseDisclosure](valence-core/hooks/usedisclosure.md)
   * [UseTooltip](valence-core/hooks/usetooltip.md)
-  * [UseColors](valence-core/hooks/usecolors.md)
   * [UseBreakpoint](valence-core/hooks/usebreakpoint.md)
   * [UseResponsiveProps](valence-core/hooks/useresponsiveprops.md)
 * [🤚 Generics](valence-core/generics/README.md)
@@ -120,6 +120,7 @@
 
 ## Update Notes
 
+* [2.7.0](update-notes/2.7.0.md)
 * [2.6.0](update-notes/2.6.0.md)
 * [2.5.0](update-notes/2.5.0.md)
 * [2.4.0](update-notes/2.4.0.md)
