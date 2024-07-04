@@ -8,6 +8,10 @@ Valence is designed to be usable across  web-apps and native applications (via s
 
 ## About the Core packages
 
+```bash
+npm install @valence-ui/core @valence-ui/utils
+```
+
 Valence's two core packages, `core` and `utils`, are required for all projects that use Valence. `utils` includes basic type declarations and low-level utilities, and `core` contains components, hooks, and the "meat" of the system.
 
 {% hint style="warning" %}
