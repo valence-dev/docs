@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.2.0 (02/02/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
 # Modal
@@ -110,4 +110,5 @@ _Extends `GenericOverlayProps`._
 
 ## Changelog
 
-* **2.2.0** - Changed how internal scrolling works; added `innerFlexProps`
+* **3.0.0:** Added a `1px` border to unify with sheets and help distinguish foreground from background.
+* **2.2.0:** Changed how internal scrolling works; added `innerFlexProps`.

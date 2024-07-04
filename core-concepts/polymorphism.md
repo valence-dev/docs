@@ -10,7 +10,7 @@ Polymorphism allows select Valence components to take different element form on 
 
 Valence has three primary polymorphic components:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Polymorphic Button</h4></td><td>Default: <code>button</code></td><td></td><td><a href="../valence-utils/polymorphism/polymorphic-button.md">polymorphic-button.md</a></td></tr><tr><td></td><td><h4>Polymorphic Layout</h4></td><td>Default: <code>div</code></td><td><a href="../valence-utils/polymorphism/polymorphic-layout.md">polymorphic-layout.md</a></td></tr><tr><td></td><td><h4>Polymorphic Text</h4></td><td>Default: <code>p</code></td><td><a href="../valence-utils/polymorphism/polymorphic-text.md">polymorphic-text.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Polymorphic Button</strong></td><td>Default: <code>button</code></td><td></td><td><a href="../valence-utils/polymorphism/polymorphic-button.md">polymorphic-button.md</a></td></tr><tr><td></td><td><strong>Polymorphic Layout</strong></td><td>Default: <code>div</code></td><td><a href="../valence-utils/polymorphism/polymorphic-layout.md">polymorphic-layout.md</a></td></tr><tr><td></td><td><strong>Polymorphic Text</strong></td><td>Default: <code>p</code></td><td><a href="../valence-utils/polymorphism/polymorphic-text.md">polymorphic-text.md</a></td></tr></tbody></table>
 
 ## Usage
 
@@ -41,7 +41,7 @@ Every component that at some point extends the `PolymorphicTextProps`, `Polymorp
 
 * All buttons
 * [Flex](../valence-core/components/layout/flex/), [Grid ](../valence-core/components/layout/grid.md)& all derivative components
-* [Modal](../valence-core/components/overlays/modal.md) & [Sheets](../valence-app/components/overlays/dynamic-sheet.md)
+* [Modal](../valence-core/components/overlays/modal.md) & [Sheets](../valence-core/components/overlays/sheets/dynamic-sheet.md)
 
 ## What is the `link` component?
 

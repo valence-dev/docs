@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024) | Added: 2.0.0'
 ---
 
 # UseDisclosure
@@ -39,4 +39,11 @@ Many Valence components (such as the Tooltip) will accept the entire Disclosure 
 
 ## Return type
 
-<table data-full-width="true"><thead><tr><th width="138">Attribute</th><th width="276">Type</th><th>Description</th></tr></thead><tbody><tr><td>opened</td><td><code>boolean</code></td><td>Whether the disclosure is open.</td></tr><tr><td>open</td><td><code>() => void</code></td><td>Open the disclosure.</td></tr><tr><td>close</td><td><code>() => void</code></td><td>Close the disclosure.</td></tr><tr><td>update</td><td><code>(value: boolean) => void</code></td><td>Manually update the disclosure.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="130.11726384364823">Attribute</th><th width="276">Type</th><th>Description</th></tr></thead><tbody><tr><td>opened</td><td><code>boolean</code></td><td>Whether the disclosure is open.</td></tr><tr><td>open</td><td><code>() => void</code></td><td>Open the disclosure.</td></tr><tr><td>close</td><td><code>() => void</code></td><td>Close the disclosure.</td></tr><tr><td>toggle</td><td><code>() => void</code></td><td>Toggle the disclosure.</td></tr><tr><td>update</td><td><code>(value: boolean) => void</code></td><td>Manually update the disclosure.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **3.0.0:** added the `.toggle()` method to the return type.
+* **2.0.0:** added hook.

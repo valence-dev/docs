@@ -1,22 +1,26 @@
 ---
-description: 'Last updated: 2.0.0 (16/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
-# Nav
+# App Nav
 
-The `Nav` component is a container component designed to handle movement between high-level pages of the application. It can also be used for application-level actions, such as signing out, changing the color scheme, etc.
+{% hint style="warning" %}
+As of Valence 3, this component has a new name (App Nav) and now imports from `@valence-ui/core`.
+{% endhint %}
 
-The `Nav` is displayed as a vertical strip containing `IconButton` buttons down the left-hand side of the screen, and will transform to a horizontal strip on the `mobile` [breakpoint](../../../core-concepts/responsiveness.md). This component is designed to be used within the [`AppContainer`](../../the-appcontainer.md), but can be used elsewhere.
+The App Nav component is a container component designed to handle movement between high-level pages of the application. It can also be used for application-level actions, such as signing out, changing the color scheme, etc.
+
+The App Nav is displayed as a vertical strip containing [Icon Buttons](../buttons/icon-button.md) down the left-hand side of the screen, and will transform to a horizontal strip on the `mobile` [breakpoint](../../../core-concepts/responsiveness.md). This component is designed to be used within the [App Container](../layout/the-appcontainer.md), but can be used elsewhere.
 
 ## Usage
 
 ```tsx
-import { Nav } from "@valence-ui/app";
+import { AppNav } from "@valence-ui/core";
 import { IconCategory } from "@tabler/icons-react";
 
 function MyComponent() { 
     return ( 
-        <Nav
+        <AppNav
             buttons={[
                 {
                     id: "page1",
@@ -136,3 +140,30 @@ function MyComponent() {
 }
 ```
 
+***
+
+## Props
+
+### AppNavButtonProps
+
+_Extends_ [_`IconButtonProps`_](../buttons/icon-button.md#props)_._
+
+<table><thead><tr><th width="146">Property</th><th width="128">Type</th><th>Description</th></tr></thead><tbody><tr><td>highlighted</td><td><code>boolean</code></td><td>Whether this button is highlighted. <code>false</code> by default.</td></tr><tr><td>show</td><td><code>boolean</code></td><td>Whether this button should be shown. <code>true</code> by default.</td></tr></tbody></table>
+
+### GenericNavProps
+
+_Extends_ [_GenericLayoutProps_](../../../valence-utils/generics/layout.md#genericlayoutprops) _&_ [_`PolymorphicLayoutProps`_](../../../valence-utils/polymorphism/polymorphic-layout.md#polymorphiclayoutprops)_._
+
+<table><thead><tr><th width="160">Property</th><th width="242">Type</th><th>Description</th></tr></thead><tbody><tr><td>buttons</td><td><a href="nav.md#appnavbuttonprops"><code>AppNavButtonProps</code></a><code>[]</code></td><td>Buttons to display on the top of the nav.</td></tr><tr><td>bottomButtons</td><td><code>AppNavButtonProps[]</code></td><td>Buttons to display on the bottom of the nav.</td></tr><tr><td>gap</td><td><code>CSSProperties["gap"]</code></td><td>Sets <code>gap</code> CSS property.</td></tr></tbody></table>
+
+### AppNavProps
+
+_Extends_ [_`GenericNavProps`_](nav.md#genericnavprops)_._
+
+<table><thead><tr><th width="151">Property</th><th width="250">Type</th><th>Description</th></tr></thead><tbody><tr><td>favicon</td><td><code>string</code></td><td>A favicon or app logo to include at the top of the nav on desktop devices.</td></tr><tr><td>faviconProps</td><td><a href="../buttons/primitive-button.md#props"><code>PrimitiveButtonProps</code></a></td><td>Props to pass to the favicon button.</td></tr></tbody></table>
+
+***
+
+## Changelog
+
+* **3.0.0:** now imports from `@valence-ui/core`, renamed to App Nav.

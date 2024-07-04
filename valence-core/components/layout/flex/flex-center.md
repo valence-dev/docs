@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (21/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
 # Flex Center

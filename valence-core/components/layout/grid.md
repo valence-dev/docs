@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (21/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
 # Grid
@@ -14,8 +14,8 @@ import { Grid } from "@valence-ui/core";
 function MyComponent() { 
     return ( 
         <Grid
-            templateColumns="1fr 1fr 1fr"
-            templateRows="1fr 1fr"
+            columns={3}
+            rows={2}
             gap={10}
         >
             <Grid.Item
@@ -39,3 +39,9 @@ No unique props.
 ### GridItemProps
 
 _Extends `GenericGridItemProps` and `PolymorphicLayoutProps`._
+
+***
+
+## Changelog
+
+* **3.0.0:** now uses `rows` and `columns` props instead of `templateRows` and `templateColumns` props; these props can now accept `number` types and will create that many `1fr` columns.

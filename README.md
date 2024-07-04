@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (16/01/2024)'
+description: 'Last updated: 3.0.0 (03/07/2024)'
 ---
 
 # 👋 Welcome to Valence

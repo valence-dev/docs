@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 2.0.0 (18/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
 # Primitive button
@@ -28,6 +28,10 @@ function MyComponent() {
 
 ## Props
 
-_Extends_ [_`GenericButtonProps`_](../../generics/generic-button-props.md)_._&#x20;
+_Extends_ [_`GenericButtonProps`_](../../generics/generic-button-props.md)_._
 
-<table data-full-width="true"><thead><tr><th width="174">Property</th><th width="237">Type</th><th>Description</th></tr></thead><tbody><tr><td>motion</td><td><code>MotionBehaviourProps</code></td><td>Defines motion behavior for this button. This will automatically be overridden if the user has reduced motion enabled on their device.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="131.01472995090015">Property</th><th width="238">Type</th><th>Description</th></tr></thead><tbody><tr><td>motion</td><td><code>MotionBehaviourProps</code></td><td>Defines motion behavior for this button. This will automatically be overridden if the user has reduced motion enabled on their device.</td></tr><tr><td>float</td><td><a href="../../hooks/usefloating.md#props"><code>UseFloatingProps</code></a></td><td>Defines floating behavior for this button.</td></tr></tbody></table>
+
+## Changelog
+
+* **3.0.0:** Added the `float` property, allowing all buttons to float like a FAB.

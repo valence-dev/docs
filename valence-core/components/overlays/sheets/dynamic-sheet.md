@@ -1,10 +1,14 @@
 ---
-description: 'Last updated: 2.0.0 (22/01/2024)'
+description: 'Last updated: 3.0.0 (04/07/2024)'
 ---
 
 # Dynamic Sheet
 
-The Dynamic Sheet is a powerful responsive component that can be used to choose the best sheet for the [breakpoint](../../../core-concepts/responsiveness.md) context. It can be used to switch between the [Side Sheet](side-sheet.md) and [Bottom Sheet](bottom-sheet.md) as required, utilizing ideal UI patterns for the breakpoint on which your app is running.
+{% hint style="warning" %}
+In Valence 3, this component now imports from `@valence-ui/core`.
+{% endhint %}
+
+The Dynamic Sheet is a powerful responsive component that can be used to choose the best sheet for the [breakpoint](../../../../core-concepts/responsiveness.md) context. It can be used to switch between the [Side Sheet](side-sheet.md) and [Bottom Sheet](bottom-sheet.md) as required, utilizing ideal UI patterns for the breakpoint on which your app is running.
 
 ## Usage
 
@@ -71,10 +75,16 @@ function MyComponent() {
 
 ## Props
 
-<table data-full-width="true"><thead><tr><th width="204">Property</th><th width="212">Type</th><th>Description</th></tr></thead><tbody><tr><td>children (required)</td><td><code>ReactNode</code></td><td></td></tr><tr><td>disclosure (required)</td><td><a href="../../../valence-core/hooks/usedisclosure.md#return-type"><code>Disclosure</code></a></td><td>A disclosure to handle the sheet's state.</td></tr><tr><td>title (required)</td><td><code>string</code></td><td>The title of the sheet.</td></tr><tr><td>type</td><td><code>DynamicSheetType</code></td><td>The type of the sheet.</td></tr><tr><td>sideSheetProps</td><td><a href="side-sheet.md#props"><code>SideSheetProps</code></a></td><td>Optional props to apply to the Side Sheet component, when displayed.</td></tr><tr><td>bottomSheetProps</td><td><a href="bottom-sheet.md#props"><code>BottomSheetProps</code></a></td><td>Optional props to apply to the Bottom Sheet component, when displayed.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="206.7142857142857">Property</th><th width="201">Type</th><th>Description</th></tr></thead><tbody><tr><td>children (required)</td><td><code>ReactNode</code></td><td></td></tr><tr><td>disclosure (required)</td><td><a href="../../../hooks/usedisclosure.md#return-type"><code>Disclosure</code></a></td><td>A disclosure to handle the sheet's state.</td></tr><tr><td>title (required)</td><td><code>string</code></td><td>The title of the sheet.</td></tr><tr><td>type</td><td><code>DynamicSheetType</code></td><td>The type of the sheet.</td></tr><tr><td>sideSheetProps</td><td><a href="side-sheet.md#props"><code>SideSheetProps</code></a></td><td>Optional props to apply to the Side Sheet component, when displayed.</td></tr><tr><td>bottomSheetProps</td><td><a href="bottom-sheet.md#props"><code>BottomSheetProps</code></a></td><td>Optional props to apply to the Bottom Sheet component, when displayed.</td></tr></tbody></table>
 
 ### DynamicSheetType
 
 ```tsx
 export type DynamicSheetType = SideSheetDisplay | "bottom";
 ```
+
+***
+
+## Changelog
+
+* **3.3.0:** now imports from `@valence-ui/core`.
